@@ -35,7 +35,3 @@ class ModelTest(TestCase):
 
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
-
-    def test_name_is_lower(self):
-        vat = create_vat()
-        self.assertEqual(vat, "val")
